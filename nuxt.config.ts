@@ -9,22 +9,20 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
+  buildModules: ['@nuxt/typescript-build'],
   loading: { color: '#fff' },
   css: [],
   plugins: [],
   modules: [],
-  buildModules: ['@nuxt/typescript-build'],
   typescript: {
     typeCheck: {
       eslint: true
     }
   },
   build: {
-    extend(config, ctx) {
+    extend (config: any, ctx: any) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({

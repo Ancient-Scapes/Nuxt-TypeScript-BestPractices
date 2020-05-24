@@ -5,12 +5,11 @@
   "author": "Ancient-Scapes",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "lint": "eslint --ext .ts,.js,.vue ."
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "latest",
@@ -19,7 +18,7 @@
   },
   "devDependencies": {
     "@nuxt/typescript-build": "latest",
-    "babel-eslint": "^8.2.1",
+    "@nuxtjs/eslint-config-typescript": "^2.0.0",
     "eslint": "^5.0.1",
     "eslint-config-prettier": "^3.1.0",
     "eslint-loader": "^2.0.0",

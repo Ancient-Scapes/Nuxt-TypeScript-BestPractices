@@ -4,21 +4,19 @@ module.exports = {
     browser: true,
     node: true
   },
-  parserOptions: {
-    parser: 'babel-eslint'
-  },
   extends: [
     'plugin:vue/recommended',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    '@nuxtjs/eslint-config-typescript',
+    'prettier/vue'
   ],
-  // required to lint *.vue files
   plugins: [
     'vue',
     'prettier'
   ],
-  // add your custom rules here
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'prettier/prettier': 'off'
   }
 }

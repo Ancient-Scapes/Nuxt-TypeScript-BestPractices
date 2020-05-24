@@ -9,9 +9,8 @@
 import Vue from 'vue'
 import TestComponent from '~/components/TestComponent.vue'
 
-
 export default Vue.extend({
-  components: { 
+  components: {
     TestComponent
   },
   data () {
@@ -20,7 +19,6 @@ export default Vue.extend({
     }
   }
 })
-
 </script>
 
 <style scoped>
