@@ -8,11 +8,7 @@
 <script lang="ts">
 import Vue from 'vue'
 import { ThisTypedComponentOptionsWithRecordProps } from 'vue/types/options'
-
-interface User {
-  firstName: string
-  lastName: number
-}
+import { User } from '~/assets/interfaces/user'
 
 type Data = {
   message: string
