@@ -24,4 +24,4 @@
 ### Other
 
 - husky
- -lint-staged
+- lint-staged
