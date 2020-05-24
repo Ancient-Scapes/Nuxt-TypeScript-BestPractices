@@ -13,9 +13,18 @@ module.exports = {
   },
   buildModules: ['@nuxt/typescript-build'],
   loading: { color: '#fff' },
-  css: [],
+  css: ['~/assets/scss/main.scss'],
   plugins: [],
-  modules: [],
+  modules: [
+    '@nuxtjs/style-resources'
+  ],
+  styleResources: {
+    scss: [
+      '~/assets/scss/variables.scss',
+      '~/assets/scss/reset.scss',
+      '~/assets/scss/mixins.scss'
+    ]
+  },
   typescript: {
     typeCheck: {
       eslint: true
@@ -27,7 +36,7 @@ module.exports = {
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
-          test: /\.(js|vue)$/,
+          test: /\.(js|ts|vue)$/,
           loader: 'eslint-loader',
           exclude: /(node_modules)/
         })

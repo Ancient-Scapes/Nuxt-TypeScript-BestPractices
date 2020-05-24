@@ -14,11 +14,14 @@
   "dependencies": {
     "@nuxt/typescript-runtime": "latest",
     "cross-env": "^5.2.0",
-    "nuxt": "latest"
+    "node-sass": "^4.14.1",
+    "nuxt": "latest",
+    "sass-loader": "^8.0.2"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "latest",
     "@nuxtjs/eslint-config-typescript": "^2.0.0",
+    "@nuxtjs/style-resources": "^1.0.0",
     "eslint": "^5.0.1",
     "eslint-config-prettier": "^3.1.0",
     "eslint-loader": "^2.0.0",

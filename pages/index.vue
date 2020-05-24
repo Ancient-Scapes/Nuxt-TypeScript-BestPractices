@@ -1,7 +1,6 @@
 <template>
-  <div>
-    <p>test</p>
-    <TestComponent :user="user" />
+  <div class="top">
+    <TestComponent :user="user" class="top__test" />
   </div>
 </template>
 
@@ -39,5 +38,12 @@ const options: ThisTypedComponentOptionsWithRecordProps<
 export default Vue.extend(options)
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+.top {
+  padding: 80px;
+
+  &__test {
+    border: solid 1px red;
+  }
+}
 </style>
