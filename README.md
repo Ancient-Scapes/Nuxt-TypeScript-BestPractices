@@ -1,22 +1,27 @@
 # nuxt-typescript-template
 
-> My geometric Nuxt.js project
+## use library
 
-## Build Setup
+### JavaScript
 
-``` bash
-# install dependencies
-$ yarn install
+- TypeScript
 
-# serve with hot reload at localhost:3000
-$ yarn run dev
+### CSS
 
-# build for production and launch server
-$ yarn run build
-$ yarn start
+- scss
+- ress.css(reset css)
 
-# generate static project
-$ yarn run generate
-```
+### Test
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+- jest
+
+### Lint
+
+- eslint
+- prettier
+- stylelint
+
+### Other
+
+- husky
+ -lint-staged
