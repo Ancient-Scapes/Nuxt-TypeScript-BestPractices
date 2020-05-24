@@ -14,13 +14,15 @@ module.exports = {
     ]
   },
   loading: { color: '#fff' },
-  css: [
-  ],
-  plugins: [
-  ],
-  modules: [
-  ],
+  css: [],
+  plugins: [],
+  modules: [],
   buildModules: ['@nuxt/typescript-build'],
+  typescript: {
+    typeCheck: {
+      eslint: true
+    }
+  },
   build: {
     extend(config, ctx) {
       // Run ESLint on save

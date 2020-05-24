@@ -13,11 +13,12 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxt/typescript-runtime": "latest",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "latest"
   },
   "devDependencies": {
-    "@nuxt/typescript-build": "^1.0.0",
+    "@nuxt/typescript-build": "latest",
     "babel-eslint": "^8.2.1",
     "eslint": "^5.0.1",
     "eslint-config-prettier": "^3.1.0",
