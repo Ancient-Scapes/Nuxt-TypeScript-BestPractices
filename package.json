@@ -9,14 +9,16 @@
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate",
-    "lint": "eslint --ext .ts,.js,.vue ."
+    "lint": "eslint --ext .ts,.js,.vue .",
+    "stylelint": "stylelint '{**/**,**}/**/*.{scss,vue}'"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "latest",
     "cross-env": "^5.2.0",
     "node-sass": "^4.14.1",
     "nuxt": "latest",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^8.0.2",
+    "stylelint": "^13.5.0"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "latest",
@@ -28,6 +30,8 @@
     "eslint-plugin-prettier": "2.6.2",
     "eslint-plugin-vue": "^4.0.0",
     "nodemon": "^1.11.0",
-    "prettier": "1.14.3"
+    "prettier": "1.14.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.17.2"
   }
 }
