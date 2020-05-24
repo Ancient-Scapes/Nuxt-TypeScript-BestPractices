@@ -11,7 +11,8 @@
     "generate": "nuxt-ts generate",
     "lint": "eslint --ext .ts,.js,.vue .",
     "stylelint": "stylelint '{**/**,**}/**/*.{scss,vue}'",
-    "stylelint:fix": "stylelint --fix '{**/**,**}/**/*.{scss,vue}'"
+    "stylelint:fix": "stylelint --fix '{**/**,**}/**/*.{scss,vue}'",
+    "test": "jest --runInBand"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "latest",
@@ -25,18 +26,22 @@
     "@nuxt/typescript-build": "latest",
     "@nuxtjs/eslint-config-typescript": "^2.0.0",
     "@nuxtjs/style-resources": "^1.0.0",
+    "@types/jest": "^25.2.3",
     "eslint": "^5.0.1",
     "eslint-config-prettier": "^3.1.0",
     "eslint-loader": "^2.0.0",
     "eslint-plugin-prettier": "2.6.2",
     "eslint-plugin-vue": "^4.0.0",
     "husky": "^4.2.5",
+    "jest": "^26.0.1",
     "lint-staged": "^10.2.6",
     "nodemon": "^1.11.0",
     "prettier": "1.14.3",
     "ress": "^2.0.4",
     "stylelint-config-standard": "^20.0.0",
-    "stylelint-scss": "^3.17.2"
+    "stylelint-scss": "^3.17.2",
+    "ts-jest": "^26.0.0",
+    "vue-jest": "^3.0.5"
   },
   "husky": {
     "hooks": {
