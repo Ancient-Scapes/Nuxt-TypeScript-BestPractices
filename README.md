@@ -9,7 +9,7 @@ My awesome nuxt + typescript project boilerplate.
 - yarn
 - yarn dev
 
-## use library
+## Library
 
 ### JavaScript
 
