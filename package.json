@@ -45,7 +45,7 @@
   "lint-staged": {
     "*.{ts,vue}": [
       "prettier --write",
-      "eslint --ext *.{ts,vue} --fix",
+      "yarn lint --fix",
       "git add"
     ],
     "*.{css,scss,vue}": [
