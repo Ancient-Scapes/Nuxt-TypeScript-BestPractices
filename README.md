@@ -1,4 +1,13 @@
-# nuxt-typescript-template
+# Nuxt-TypeScript-Boilerplate
+
+## About
+
+My awesome nuxt + typescript project boilerplate.
+
+## Usage
+
+- yarn
+- yarn dev
 
 ## use library
 
