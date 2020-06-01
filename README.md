@@ -34,3 +34,7 @@ My awesome nuxt + typescript project boilerplate.
 
 - husky
 - lint-staged
+
+## Contribution
+
+- Create Issues, or PullRequests thx.
