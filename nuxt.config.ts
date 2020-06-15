@@ -14,10 +14,8 @@ module.exports = {
   buildModules: ['@nuxt/typescript-build'],
   loading: { color: '#fff' },
   css: ['~/assets/scss/main.scss'],
-  plugins: [],
-  modules: [
-    '@nuxtjs/style-resources'
-  ],
+  plugins: ['~/plugins/portal-vue'],
+  modules: ['@nuxtjs/style-resources'],
   styleResources: {
     scss: [
       '~/assets/scss/variables.scss',
