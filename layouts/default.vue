@@ -2,10 +2,24 @@
   <div>
     <v-app>
       <div>
-        <v-app-bar app clipped-left color="primary">
+        <v-app-bar app clipped-left color="primary" class="header">
           <v-toolbar-title class="white--text">
             Nuxt-TypeScript-Boilerplaete
           </v-toolbar-title>
+
+          <div class="header__items">
+            <a href="https://github.com/Ancient-Scapes/Nuxt-TypeScript-Boilerplate">
+              <v-avatar color="white" size="40">
+                <v-icon color="black" class="header__items-icon">mdi-github</v-icon>
+              </v-avatar>
+            </a>
+
+            <a href="https://twitter.com/_Ancient_Scapes">
+              <v-avatar color="white" size="40">
+                <v-icon color="#00acee" class="header__items-icon">mdi-twitter</v-icon>
+              </v-avatar>
+            </a>
+          </div>
         </v-app-bar>
       </div>
 
@@ -87,6 +101,24 @@ export default Vue.extend(options)
 </script>
 
 <style lang="scss">
+.header {
+  position: relative;
+
+  &__items {
+    position: absolute;
+    right: 15px;
+
+    a + a {
+      margin-left: 10px;
+    }
+
+    &-icon {
+      // なんということでしょう
+      font-size: 32px !important;
+    }
+  }
+}
+
 .sidebar {
   &__icon {
     font-size: 14px;
