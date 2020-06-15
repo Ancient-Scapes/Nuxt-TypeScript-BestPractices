@@ -11,6 +11,10 @@ My awesome nuxt + typescript project boilerplate.
 
 ## Library
 
+### UI Framework
+
+- Vuetify 2
+
 ### JavaScript
 
 - TypeScript
