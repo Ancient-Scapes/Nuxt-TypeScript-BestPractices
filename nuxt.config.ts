@@ -11,16 +11,11 @@ module.exports = {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
-  buildModules: ['@nuxt/typescript-build', '@nuxtjs/tailwindcss'],
-  tailwindcss: {
-    configPath: './tailwind.config.js',
-    cssPath: '~/assets/scss/tailwind.scss',
-    exposeConfig: false
-  },
+  modules: ['@nuxtjs/vuetify', '@nuxtjs/style-resources'],
+  buildModules: ['@nuxt/typescript-build'],
   loading: { color: '#fff' },
   css: ['~/assets/scss/main.scss'],
   plugins: ['~/plugins/portal-vue'],
-  modules: ['@nuxtjs/style-resources'],
   styleResources: {
     scss: [
       '~/assets/scss/variables.scss',
