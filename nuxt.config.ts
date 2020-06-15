@@ -11,7 +11,12 @@ module.exports = {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
-  buildModules: ['@nuxt/typescript-build'],
+  buildModules: ['@nuxt/typescript-build', '@nuxtjs/tailwindcss'],
+  tailwindcss: {
+    configPath: './tailwind.config.js',
+    cssPath: '~/assets/scss/tailwind.scss',
+    exposeConfig: false
+  },
   loading: { color: '#fff' },
   css: ['~/assets/scss/main.scss'],
   plugins: ['~/plugins/portal-vue'],
