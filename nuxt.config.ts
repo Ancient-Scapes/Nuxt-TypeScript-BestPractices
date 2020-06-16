@@ -2,7 +2,7 @@ const pkg = require('./package')
 
 module.exports = {
   router: {
-    base: '/nuxt-typescript-boilerplate/'
+    base: '/Nuxt-Typescript-Boilerplate/'
   },
   mode: 'spa',
   head: {
