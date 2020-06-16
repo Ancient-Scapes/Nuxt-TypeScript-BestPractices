@@ -3,7 +3,7 @@ const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
       router: {
-        base: '/<nuxt-typescript-boilerplate>/'
+        base: '/nuxt-typescript-boilerplate/'
       }
     }
     : {}
