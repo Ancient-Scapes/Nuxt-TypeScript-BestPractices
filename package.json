@@ -15,6 +15,7 @@
     "test": "jest --runInBand"
   },
   "dependencies": {
+    "@nuxt/typescript-build": "^1.0.3",
     "@nuxt/typescript-runtime": "latest",
     "@nuxtjs/vuetify": "^1.11.2",
     "cross-env": "^5.2.0",
@@ -25,7 +26,6 @@
     "stylelint": "^13.5.0"
   },
   "devDependencies": {
-    "@nuxt/typescript-build": "latest",
     "@nuxtjs/eslint-config-typescript": "^2.0.0",
     "@nuxtjs/style-resources": "^1.0.0",
     "@types/jest": "^25.2.3",
