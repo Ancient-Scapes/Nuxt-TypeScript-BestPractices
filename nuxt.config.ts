@@ -1,5 +1,5 @@
 const pkg = require('./package')
-const routerBase = '/Nuxt-Typescript-Boilerplate/'
+const routerBase = '/Nuxt-TypeScript-Boilerplate/'
 
 module.exports = {
   router: {
