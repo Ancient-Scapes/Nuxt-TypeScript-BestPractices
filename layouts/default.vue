@@ -8,13 +8,13 @@
           </v-toolbar-title>
 
           <div class="header__items">
-            <a href="https://github.com/Ancient-Scapes/Nuxt-TypeScript-Boilerplate">
+            <a target="_blank" noopener noreferrer href="https://github.com/Ancient-Scapes/Nuxt-TypeScript-Boilerplate">
               <v-avatar color="white" size="40">
                 <v-icon color="black" class="header__items-icon">mdi-github</v-icon>
               </v-avatar>
             </a>
 
-            <a href="https://twitter.com/_Ancient_Scapes">
+            <a target="_blank" noopener noreferrer href="https://twitter.com/_Ancient_Scapes">
               <v-avatar color="white" size="40">
                 <v-icon color="#00acee" class="header__items-icon">mdi-twitter</v-icon>
               </v-avatar>

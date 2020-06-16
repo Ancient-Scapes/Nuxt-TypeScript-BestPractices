@@ -34,6 +34,14 @@ My awesome nuxt + typescript project boilerplate.
 - prettier
 - stylelint
 
+### Hosting
+
+- Github Pages
+
+### CI
+
+- Github Actions
+
 ### Other
 
 - husky
