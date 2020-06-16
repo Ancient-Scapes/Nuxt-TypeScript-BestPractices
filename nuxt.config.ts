@@ -1,15 +1,9 @@
 const pkg = require('./package')
-const routerBase =
-  process.env.DEPLOY_ENV === 'GH_PAGES'
-    ? {
-      router: {
-        base: '/nuxt-typescript-boilerplate/'
-      }
-    }
-    : {}
 
 module.exports = {
-  ...routerBase,
+  router: {
+    base: '/nuxt-typescript-boilerplate/'
+  },
   mode: 'spa',
   head: {
     title: pkg.name,
