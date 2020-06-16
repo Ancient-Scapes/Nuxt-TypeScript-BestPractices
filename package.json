@@ -23,7 +23,8 @@
     "nuxt": "latest",
     "portal-vue": "^2.1.7",
     "sass-loader": "^8.0.2",
-    "stylelint": "^13.5.0"
+    "stylelint": "^13.5.0",
+    "vuetify": "^2.3.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "^2.0.0",
