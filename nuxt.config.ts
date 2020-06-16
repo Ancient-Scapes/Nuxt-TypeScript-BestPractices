@@ -1,8 +1,9 @@
 const pkg = require('./package')
+const routerBase = '/Nuxt-Typescript-Boilerplate/'
 
 module.exports = {
   router: {
-    base: '/Nuxt-Typescript-Boilerplate/'
+    base: routerBase
   },
   mode: 'spa',
   head: {
@@ -12,7 +13,9 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: `${routerBase}favicon.ico` }
+    ]
   },
   modules: ['@nuxtjs/vuetify', '@nuxtjs/style-resources'],
   buildModules: ['@nuxt/typescript-build'],
