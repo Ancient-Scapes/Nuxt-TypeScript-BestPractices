@@ -4,6 +4,8 @@
 
 My awesome nuxt + typescript project boilerplate.
 
+demo: [Github Pages](https://ancient-scapes.github.io/Nuxt-TypeScript-Boilerplate/)
+
 ## Usage
 
 - yarn
