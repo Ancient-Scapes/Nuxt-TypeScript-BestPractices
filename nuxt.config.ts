@@ -1,9 +1,10 @@
-require('dotenv').config()
 const pkg = require('./package')
+const environment = process.env.NODE_ENV || 'local'
+const env = require(`./env/${environment}.ts`)
 
 module.exports = {
   router: {
-    base: process.env.BASE_URL
+    base: env.BASE_URL
   },
   mode: 'spa',
   head: {
@@ -17,11 +18,11 @@ module.exports = {
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: `${process.env.BASE_URL}favicon.ico`
+        href: `${env.BASE_URL}favicon.ico`
       }
     ]
   },
-  modules: ['@nuxtjs/vuetify', '@nuxtjs/style-resources', '@nuxtjs/dotenv'],
+  modules: ['@nuxtjs/vuetify', '@nuxtjs/style-resources'],
   buildModules: ['@nuxt/typescript-build'],
   loading: { color: '#fff' },
   css: ['~/assets/scss/main.scss'],
