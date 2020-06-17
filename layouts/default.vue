@@ -90,7 +90,8 @@ const options: ThisTypedComponentOptionsWithRecordProps<
       items: [
         {
           icon: 'mdi-arrange-bring-forward',
-          text: 'Modal'
+          text: 'Modal',
+          to: '/modal'
         }
       ],
       listStatus: true
