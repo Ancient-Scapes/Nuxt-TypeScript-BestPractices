@@ -32,8 +32,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
   components: {
     TheHeader,
     TheSidebar
-  },
-  data () {}
+  }
 }
 export default Vue.extend(options)
 </script>
