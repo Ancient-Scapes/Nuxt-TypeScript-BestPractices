@@ -5,10 +5,8 @@
   "author": "Ancient-Scapes",
   "private": true,
   "scripts": {
-    "dev": "nuxt-ts --port=3003",
-    "build": "nuxt-ts build",
-    "start": "nuxt-ts start",
-    "generate": "nuxt-ts generate",
+    "dev": "ENV=local nuxt-ts --port=3003",
+    "build": "ENV=production nuxt-ts build",
     "lint": "eslint --ext .ts,.js,.vue .",
     "stylelint": "stylelint '{**/**,**}/**/*.{scss,vue}'",
     "stylelint:fix": "stylelint --fix '{**/**,**}/**/*.{scss,vue}'",
@@ -17,6 +15,7 @@
   "dependencies": {
     "@nuxt/typescript-build": "^1.0.3",
     "@nuxt/typescript-runtime": "latest",
+    "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/vuetify": "^1.11.2",
     "cross-env": "^5.2.0",
     "node-sass": "^4.14.1",

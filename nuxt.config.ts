@@ -1,9 +1,9 @@
+require('dotenv').config()
 const pkg = require('./package')
-const routerBase = '/Nuxt-TypeScript-Boilerplate/'
 
 module.exports = {
   router: {
-    base: routerBase
+    base: process.env.BASE_URL
   },
   mode: 'spa',
   head: {
@@ -14,10 +14,14 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: `${routerBase}favicon.ico` }
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: `${process.env.BASE_URL}favicon.ico`
+      }
     ]
   },
-  modules: ['@nuxtjs/vuetify', '@nuxtjs/style-resources'],
+  modules: ['@nuxtjs/vuetify', '@nuxtjs/style-resources', '@nuxtjs/dotenv'],
   buildModules: ['@nuxt/typescript-build'],
   loading: { color: '#fff' },
   css: ['~/assets/scss/main.scss'],
