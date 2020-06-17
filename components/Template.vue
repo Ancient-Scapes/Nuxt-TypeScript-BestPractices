@@ -23,3 +23,6 @@ const options: ThisTypedComponentOptionsWithRecordProps<
 }
 export default Vue.extend(options)
 </script>
+
+<style lang="scss" scoped>
+</style>
