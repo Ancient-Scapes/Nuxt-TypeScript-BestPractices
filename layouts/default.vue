@@ -64,12 +64,8 @@
 <script lang="ts">
 import Vue from 'vue'
 import { ThisTypedComponentOptionsWithRecordProps } from 'vue/types/options'
-
-interface ListItem {
-  icon: string
-  text: string
-  to?: string
-}
+import { ListItem } from '~/assets/interfaces/listItem'
+import { listItems } from '~/assets/pages/sidebar-menu-items'
 
 type Data = {
   items: Array<ListItem>
@@ -87,13 +83,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
 > = {
   data () {
     return {
-      items: [
-        {
-          icon: 'mdi-arrange-bring-forward',
-          text: 'Modal',
-          to: '/modal'
-        }
-      ],
+      items: listItems,
       listStatus: true
     }
   }
