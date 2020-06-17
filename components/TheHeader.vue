@@ -1,9 +1,11 @@
 <template>
   <div>
     <v-app-bar app clipped-left color="primary" class="header">
-      <v-toolbar-title class="white--text">
-        Nuxt-TypeScript-Boilerplaete
-      </v-toolbar-title>
+      <nuxt-link to="/">
+        <v-toolbar-title class="white--text">
+          Nuxt-TypeScript-Boilerplaete
+        </v-toolbar-title>
+      </nuxt-link>
 
       <div class="header__items">
         <a target="_blank" noopener noreferrer href="https://github.com/Ancient-Scapes/Nuxt-TypeScript-Boilerplate">
