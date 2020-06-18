@@ -22,6 +22,7 @@ module.exports = {
       }
     ]
   },
+  env,
   modules: ['@nuxtjs/vuetify', '@nuxtjs/style-resources'],
   buildModules: ['@nuxt/typescript-build'],
   loading: { color: '#fff' },
