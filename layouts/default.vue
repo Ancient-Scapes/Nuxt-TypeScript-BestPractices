@@ -8,6 +8,9 @@
           <Nuxt />
         </v-card>
       </v-main>
+
+      <!-- Modals -->
+      <portal-target name="message"/>
     </v-app>
   </div>
 </template>
