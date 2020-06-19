@@ -38,7 +38,6 @@
     "lint-staged": "^10.2.6",
     "nodemon": "^1.11.0",
     "prettier": "1.14.3",
-    "ress": "^2.0.4",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-scss": "^3.17.2",
     "ts-jest": "^26.0.0",

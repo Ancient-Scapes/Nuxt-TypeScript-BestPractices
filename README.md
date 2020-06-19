@@ -24,7 +24,6 @@ demo: [Github Pages](https://ancient-scapes.github.io/Nuxt-TypeScript-Boilerplat
 ### CSS
 
 - scss
-- ress.css(reset css)
 
 ### Test
 
