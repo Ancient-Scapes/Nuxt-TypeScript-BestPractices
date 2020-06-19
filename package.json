@@ -5,8 +5,8 @@
   "author": "Ancient-Scapes",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=\"local\" nuxt-ts --port=3003",
-    "build": "cross-env NODE_ENV=\"production\" nuxt-ts build",
+    "dev": "cross-env NODE_ENV=local nuxt-ts --port=3003",
+    "build": "cross-env NODE_ENV=production nuxt-ts build",
     "lint": "eslint --ext .ts,.js,.vue .",
     "stylelint": "stylelint '{**/**,**}/**/*.{scss,vue}'",
     "stylelint:fix": "stylelint --fix '{**/**,**}/**/*.{scss,vue}'",
