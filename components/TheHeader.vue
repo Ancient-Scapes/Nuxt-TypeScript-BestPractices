@@ -2,8 +2,9 @@
   <div>
     <v-app-bar app clipped-left color="primary" class="header">
       <nuxt-link to="/">
-        <v-toolbar-title class="white--text">
-          Nuxt-TypeScript-Boilerplaete
+        <v-toolbar-title class="white--text header__title">
+          <v-icon color="white" class="header__title-icon">mdi-silverware</v-icon>
+          <span>Nuxt-TypeScript-Boilerplaete</span>
         </v-toolbar-title>
       </nuxt-link>
 
@@ -49,6 +50,18 @@ export default Vue.extend(options)
 <style lang="scss">
 .header {
   position: relative;
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-icon {
+      // 本当に嫌だ
+      font-size: 20px !important;
+      margin-right: 5px;
+    }
+  }
 
   &__items {
     position: absolute;
