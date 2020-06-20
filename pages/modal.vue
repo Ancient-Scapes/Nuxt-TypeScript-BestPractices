@@ -25,6 +25,7 @@
         </div>
       </portal>
 
+      <!-- TODO: 本当はVueitfyのようなscriptとかが全部見れる実装がいい -->
       <h2>コードのリンク</h2>
 
       <a href="https://github.com/Ancient-Scapes/Nuxt-TypeScript-Boilerplate/blob/5ba557c2ba21828de5ba1485096f5c8ae2b70aa4/layouts/default.vue#L12-L13">
