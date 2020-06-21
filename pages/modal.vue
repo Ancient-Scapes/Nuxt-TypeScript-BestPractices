@@ -52,15 +52,6 @@ export default Vue.extend(options)
 </script>
 
 <style lang="scss" scoped>
-.heading-link {
-  display: flex;
-  margin-bottom: 22px;
-
-  i {
-    margin-left: 10px;
-  }
-}
-
 .modal {
   padding: 100px 0;
   display: flex;
