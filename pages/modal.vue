@@ -5,23 +5,21 @@
     <v-btn @click="isMessageOpen = true">モーダルを開く</v-btn>
 
     <portal v-if="isMessageOpen" to="message">
-      <div class="modal">
-        <div class="modal__contents">
-          <v-card class="modal__card">
-            <p class="modal__message">メッセージ</p>
+      <v-dialog v-model="isMessageOpen">
+        <v-card class="modal">
+          <p class="modal__message">メッセージ</p>
 
-            <div class="modal__buttons">
-              <v-btn @click="isMessageOpen = false">
-                OK
-              </v-btn>
+          <div class="modal__buttons">
+            <v-btn @click="isMessageOpen = false">
+              OK
+            </v-btn>
 
-              <v-btn @click="isMessageOpen = false">
-                キャンセル
-              </v-btn>
-            </div>
-          </v-card>
-        </div>
-      </div>
+            <v-btn color="error" @click="isMessageOpen = false">
+              キャンセル
+            </v-btn>
+          </div>
+        </v-card>
+      </v-dialog>
     </portal>
 
     <!-- TODO: 本当はVueitfyのようなscriptとかが全部見れる実装がいい -->
@@ -81,28 +79,11 @@ export default Vue.extend(options)
 }
 
 .modal {
-  // Vuetify z-index vs Modal z-index
-  z-index: 999999;
-  position: fixed;
-  top: 0;
-  left: 0;
+  padding: 100px 0;
   display: flex;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  transition: opacity 0.3s ease;
-
-  &__contents {
-    display: inline-flex;
-    margin: auto;
-  }
-
-  &__card {
-    padding: 60px 150px;
-  }
 
   &__message {
     margin-bottom: 50px;
