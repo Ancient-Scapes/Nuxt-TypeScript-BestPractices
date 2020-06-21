@@ -17,6 +17,7 @@
     "@nuxt/typescript-runtime": "latest",
     "@nuxtjs/vuetify": "^1.11.2",
     "cross-env": "^7.0.2",
+    "epic-spinners": "^1.1.0",
     "node-sass": "^4.14.1",
     "nuxt": "latest",
     "portal-vue": "^2.1.7",
