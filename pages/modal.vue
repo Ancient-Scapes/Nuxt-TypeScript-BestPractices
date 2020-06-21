@@ -21,6 +21,13 @@
         </v-card>
       </v-dialog>
     </portal>
+
+    <h2>
+      <a href="https://github.com/LinusBorg/portal-vue">
+        Link
+      </a>
+      <v-icon>mdi-link</v-icon>
+    </h2>
   </section>
 
 </template>

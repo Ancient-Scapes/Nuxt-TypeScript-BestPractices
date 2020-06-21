@@ -16,8 +16,14 @@
       <div v-else class="contents__load-complete">
         <p>Loading complete...display something contents here</p>
       </div>
-
     </div>
+
+    <h2>
+      <a href="https://github.com/epicmaxco/epic-spinners">
+        Link
+      </a>
+      <v-icon>mdi-link</v-icon>
+    </h2>
 
   </section>
 
