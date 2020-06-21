@@ -1,13 +1,13 @@
 <template>
   <section>
-    <h1>portal-vueを使ったモーダルサンプル</h1>
+    <h1>Modal Sample(portal-vue)</h1>
 
-    <v-btn @click="isMessageOpen = true">モーダルを開く</v-btn>
+    <v-btn @click="isMessageOpen = true">Open Modal</v-btn>
 
     <portal v-if="isMessageOpen" to="message">
       <v-dialog v-model="isMessageOpen">
         <v-card class="modal">
-          <p class="modal__message">メッセージ</p>
+          <p class="modal__message">Message here</p>
 
           <div class="modal__buttons">
             <v-btn @click="isMessageOpen = false">
@@ -15,7 +15,7 @@
             </v-btn>
 
             <v-btn color="error" @click="isMessageOpen = false">
-              キャンセル
+              Cancel
             </v-btn>
           </div>
         </v-card>

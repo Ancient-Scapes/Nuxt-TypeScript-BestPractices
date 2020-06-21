@@ -1,9 +1,9 @@
 <template>
   <section>
-    <h1>epic-spinnersを使ったLoadingサンプル</h1>
+    <h1>Loading Sample(epic-spinners)</h1>
 
-    <v-btn v-if="!isLoadingComplete" @click="isLoadingComplete = true">ロード終了</v-btn>
-    <v-btn v-else @click="isLoadingComplete = false">ロード開始</v-btn>
+    <v-btn v-if="!isLoadingComplete" @click="isLoadingComplete = true">End Loading</v-btn>
+    <v-btn v-else @click="isLoadingComplete = false">Start Loading</v-btn>
 
     <div class="contents">
       <OrbitSpinner
