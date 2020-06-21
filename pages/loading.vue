@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1>vue-spinnerを使ったLoadingサンプル</h1>
+    <h1>epic-spinnersを使ったLoadingサンプル</h1>
 
     <v-btn v-if="!isLoadingComplete" @click="isLoadingComplete = true">ロード終了</v-btn>
     <v-btn v-else @click="isLoadingComplete = false">ロード開始</v-btn>
