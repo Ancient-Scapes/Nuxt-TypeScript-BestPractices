@@ -9,7 +9,7 @@
       </nuxt-link>
 
       <div class="header__items">
-        <a target="_blank" noopener noreferrer href="https://github.com/Ancient-Scapes/Nuxt-TypeScript-Boilerplate">
+        <a target="_blank" noopener noreferrer href="https://github.com/Ancient-Scapes/Nuxt-TypeScript-BestPractices">
           <v-avatar color="white" size="40">
             <v-icon color="black" class="header__items-icon">mdi-github</v-icon>
           </v-avatar>

@@ -1,10 +1,10 @@
-# Nuxt-TypeScript-Boilerplate
+# Nuxt-TypeScript-BestPractices
 
 ## About
 
-My awesome nuxt + typescript project boilerplate.
+My awesome nuxt + typescript project bestplactices.
 
-demo: [Github Pages](https://ancient-scapes.github.io/Nuxt-TypeScript-Boilerplate/)
+demo: [Github Pages](https://ancient-scapes.github.io/Nuxt-TypeScript-BestPractices/)
 
 ## Usage
 
