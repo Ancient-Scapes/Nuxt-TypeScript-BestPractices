@@ -4,7 +4,7 @@
       <nuxt-link to="/">
         <v-toolbar-title class="white--text header__title">
           <v-icon color="white" class="header__title-icon">mdi-silverware</v-icon>
-          <span>Nuxt-TypeScript-Boilerplaete</span>
+          <span>Nuxt-TypeScript-BestPractices</span>
         </v-toolbar-title>
       </nuxt-link>
 
